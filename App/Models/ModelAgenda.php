@@ -1,5 +1,6 @@
 <?php
-	namespace App;
+	namespace App\Models;
+
 	class ModelAgenda{
 		private $data;
 		public function __construct(){

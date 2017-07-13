@@ -1,9 +1,11 @@
 <?php
-	require 'App/Controllers/ControllerAgenda.php';
-	require 'App/Models/ModelAgenda.php';
-	require 'App/Views/ViewAgenda.php';
+	// require 'App/Controllers/ControllerAgenda.php';
+	// require 'App/Models/ModelAgenda.php';
+	// require 'App/Views/ViewAgenda.php';
 
-	$controllerAgenda = new App\ControllerAgenda();
+	require 'vendor/autoload.php';
+
+	$controllerAgenda = new App\Controllers\ControllerAgenda();
 	$controllerAgenda->index();
 	/*
 	$controllerAgenda->save(

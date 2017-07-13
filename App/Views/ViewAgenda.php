@@ -1,5 +1,6 @@
 <?php
-	namespace App;
+	namespace App\Views;
+
 	class ViewAgenda{
 		public function render($data){
 			/**
